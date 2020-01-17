@@ -1,0 +1,105 @@
+/*color scheme: "bege" - #CABBB7 and "pink" - #C65252*/
+body {
+	font-family: 'Chivo', sans-serif;
+}
+#header {
+	background-color: #CABBB7;
+	margin: 0;
+	height: 100px;
+	min-width: 700px;
+}
+#banner {
+	float: right;
+	height: 100px;
+	margin: 0;
+	margin-right: 20px;
+	align-items: center; 
+}
+#banner h2 {
+	padding: 15px 0;
+}
+#picBox {
+	float: right;
+	height: 100px;
+	margin: 0;
+}
+#picBox img {
+	height: 80px;
+	margin: 10px;
+
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #C65252;
+	min-width: 700px;
+}
+li {
+	float: right;
+	margin: 0;
+	height: 50px;
+}
+li a {
+	display: inline-block;
+	color: white;
+	height: 50px;
+	text-align: center;
+	margin: 0;
+	padding: 12px 20px;
+	font-size: 14pt;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #8C1215;
+}
+.contentBox {
+	margin: 0;
+	text-align: center;
+}
+.contentBox h1 {
+	margin: 20px;
+}
+#footer {
+	background-color: #CABBB7;
+	margin: 0;
+	padding: 10px;
+	height: 80px;
+	text-align: center;
+	min-width: 700px;
+}
+#footer img {
+	height: 40px;
+	margin: 10px;
+}
+#footer h4 {
+	margin: 0;
+}
+.polaroidBig{
+	margin: 20px 40px;
+	text-align: center;
+	font-size: 17pt;
+	font-weight: bold;
+}
+.window {
+	display: block;
+	height: 200px;
+	margin: auto;
+	overflow: hidden;	
+}
+.window img {
+	margin-bottom: 0;
+	width: 100%;
+}
+.polContainer {
+	margin: 20px 40px;
+	column-count: 2;
+}
+.polaroidSmall{
+	float: left;
+	margin: 0;
+	text-align: center;
+	font-size: 17pt;
+	font-weight: bold;
+}
