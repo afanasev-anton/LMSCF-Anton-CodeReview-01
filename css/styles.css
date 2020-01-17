@@ -1,5 +1,5 @@
 /*color scheme: "bege" - #CABBB7 and "pink" - #C65252*/
-body {
+body {	/*setup fonts in the whole page*/
 	font-family: 'Chivo', sans-serif;
 }
 #header {
@@ -18,17 +18,17 @@ body {
 #banner h2 {
 	padding: 15px 0;
 }
-#picBox {
+#logoBox {
 	float: right;
 	height: 100px;
 	margin: 0;
 }
-#picBox img {
+#logoBox img {
 	height: 80px;
 	margin: 10px;
 
 }
-ul {
+.nav {	/*navigation bar*/
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -36,7 +36,7 @@ ul {
 	background-color: #C65252;
 	min-width: 700px;
 }
-li {
+.nav li {
 	float: right;
 	margin: 0;
 	height: 50px;
@@ -53,15 +53,15 @@ li a {
 }
 li a:hover {
 	background-color: #8C1215;
-}
-.contentBox {
+}	/*end of the navigation bar*/
+.contentBox {	/*main framework with content*/
 	margin: 0;
 	text-align: center;
 }
 .contentBox h1 {
 	margin: 20px;
 }
-#footer {
+#footer {	/*just a footer*/
 	background-color: #CABBB7;
 	margin: 0;
 	padding: 10px;
@@ -75,14 +75,14 @@ li a:hover {
 }
 #footer h4 {
 	margin: 0;
-}
-.polaroidBig{
+}	/*end of footer*/
+.polaroidBig{	/*frame with picture and description, uses whole width of the content section*/
 	margin: 20px 40px;
 	text-align: center;
 	font-size: 17pt;
 	font-weight: bold;
 }
-.window {
+.window {	/*frame for image*/
 	display: block;
 	height: 200px;
 	margin: auto;
@@ -92,7 +92,7 @@ li a:hover {
 	margin-bottom: 0;
 	width: 100%;
 }
-.polContainer {
+.polContainer {	/*frame for two small polaroid-looking structure*/
 	margin: 20px 40px;
 	column-count: 2;
 }
