@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anton's first website</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<!--Headline with logo-->
+	<div id="header">
+		<div id="logoBox">
+			<a href="https://codefactory.wien/en/home-en/">
+			<img src="img/logo.png" alt="Logo"></a>
+		</div>
+		<div id="banner">
+			<h2>Anton - Full-stack Web developer</h2>
+		</div>
+		
+	</div>
+	<!--Navigation bar-->
+	<ul class="nav">
+    	<li><a href="contact.html">Contact</a></li>
+    	<li><a href="about.html">About me</a></li>
+    	<li><a href="blog.html">Blog</a></li>
+    	<li><a href="index.html">Home</a></li>     
+ 	</ul>
+ 	<!--Content-->
+ 	<div class="contentBox">
+ 		<h2>If you have something interesting to say, use the following form to leave us a message</h2>
+ 		<form action="contact_submit" method="get" accept-charset="utf-8">
+			<label for="firstname" class="content">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+        	<label for="lname"  class="content">Last Name</label>
+        	<input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+        	<label for="country"  class="content">Country</label>
+        	<select id="country" name="country">
+				<option value="austria">Austria</option>
+          		<option value="germany">Germany</option>
+          		<option value="russia">Russia</option>
+       		</select>
+        	<label for="subject"  class="content">Subject</label>
+        	<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        	<input type="submit" value="Submit">
+		</form>
+	</div>
+ 	<!--Footer-->
+ 	<div id="footer">
+ 		<a href="https://codefactory.wien/en/home-en/">
+ 		<img src="img/logo.png" alt="Logo"></a>
+ 		<h4>Anton - CodeFactory 2020</h4>
+ 	</div>
+
+</body>
+</html>
