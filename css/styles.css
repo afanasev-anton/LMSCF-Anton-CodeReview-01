@@ -1,6 +1,7 @@
-/*color scheme: "bege" - #CABBB7 and "pink" - #C65252*/
+/*color scheme: "beige" - #CABBB7 and "pink" - #C65252*/
 body {	/*setup fonts in the whole page*/
 	font-family: 'Chivo', sans-serif;
+	padding: 0 10%;
 }
 #header {
 	background-color: #CABBB7;
@@ -12,7 +13,7 @@ body {	/*setup fonts in the whole page*/
 	float: right;
 	height: 100px;
 	margin: 0;
-	margin-right: 20px;
+	margin-right: 30px;
 	align-items: center; 
 }
 #banner h2 {
@@ -57,6 +58,7 @@ li a:hover {
 .contentBox {	/*main framework with content*/
 	margin: 0;
 	text-align: center;
+	min-width: 700px;
 }
 .contentBox h1 {
 	margin: 20px;
@@ -86,11 +88,12 @@ li a:hover {
 	display: block;
 	height: 200px;
 	margin: auto;
-	overflow: hidden;	
+	overflow: hidden;
 }
-.window img {
-	margin-bottom: 0;
+.polaroidBig img {
+	position: relative;
 	width: 100%;
+	bottom: 90%;
 }
 .polContainer {	/*frame for two small polaroid-looking structure*/
 	margin: 20px 40px;
@@ -103,20 +106,8 @@ li a:hover {
 	font-size: 17pt;
 	font-weight: bold;
 }
-.contentBox form {
-	text-align: center;
-	margin: 20px 0;
-}
-.content {
-	margin: 10px 0;
-	display: block;
-}
-#subject {
-	margin: 10px 0;
-	height: 200px;
-	width: 300px;
-}
-.contentBox input {
-	margin: auto;
-	display: block;
+.polaroidSmall img {
+	position: relative;
+	width: 100%;
+	bottom: 5%;
 }

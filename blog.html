@@ -4,6 +4,48 @@
 	<title>Anton's first website</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!--additional styles for this page-->
+	<style type="text/css">
+		.topic {
+			display: block;
+			padding: 10px 0;
+			margin: 20px 40px;
+			min-width: 700px;			
+			border-style: none none solid;
+			border-width: 10px;
+			border-color: #C65252;
+		}
+		.topic p {
+			margin: 0;
+			padding: 10px 0;
+			text-align: left;
+			font-size: 16pt;
+		}
+		.topicContent {
+			display: block;
+			height: 350px;
+			min-width: 700px;
+			padding: 10px 0;
+			margin: 20px 40px;
+			text-align: center;
+			/*column-count: 3;*/
+		}
+		.empty {
+			display: inline-block;
+			float: left;
+			height: 156px;
+			width: 20%;
+			margin: 0;			
+			border-style: none none solid;
+			border-width: 10px;
+			border-color: #C65252;
+		}
+		.topicContent iframe {
+			float: left;
+			width: 60%;
+			height: 315px;
+		}
+	</style>
 </head>
 <body>
 	<!--Headline with logo-->
@@ -26,7 +68,15 @@
  	</ul>
  	<!--Content-->
  	<div class="contentBox">
- 		<h1>Here should be news and other stuff</h1>
+ 		<h1>Coffe break</h1>
+ 		<div class="topic">
+ 			<p>Are you tired with coding? Have a break - drink coffee. Don't know how to make some nice and tasty one? I have found some videos about it.</p>
+ 		</div>
+ 		<div class="topicContent">
+ 			<div class="empty"></div>
+ 			<iframe src="https://www.youtube.com/embed/LMbOrcTODBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 			<div class="empty"></div>
+ 		</div>
 	</div>
  	<!--Footer-->
  	<div id="footer">
